@@ -13,14 +13,14 @@ person.sayName = function() {
 person.sayName()
 /**
  * 方括号语法定义属性
- * 出处：wc5858
+ * 总结：wc5858
  */
 
 person['foo bar'] = false
 
 /**
  * 使用对象字面量语法创建对象
- * 出处：wc5858
+ * 总结：wc5858
  */
 var data = {}
 var obj = {

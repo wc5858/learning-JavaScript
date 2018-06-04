@@ -40,7 +40,7 @@ console.log(person1.name) //"Nicholas" - from the prototype
  * 当我们试图访问一个属性时，会现在对象自身所拥有的属性中查找，若没有找到，则上溯其原型对象
  * 进一步地，不难想象还可以构成原型链
  * Person的原型中还有一个constructor属性指向Person，用于指明对象类型
- * 出处：wc5858
+ * 总结：wc5858
  */
 
 /**
@@ -65,7 +65,7 @@ Person.prototype = {
 }
 /**
  * 其实可以用es6的语法
- * 出处：wc5858
+ * 总结：wc5858
  */
 function Human() {}
 Object.assign(Human.prototype, {

@@ -42,7 +42,7 @@ console.log(person1.sayName == person2.sayName) //false
  /**
   * 额外需要注意的地方：
   * 1.由于构造函数本身也是对象，也可以被添加属性，但以这种方式添加的属性与构造过程无关
-  * 出处：wc5858
+  * 总结：wc5858
   */
  Person.foo = 'bar'
  /**
