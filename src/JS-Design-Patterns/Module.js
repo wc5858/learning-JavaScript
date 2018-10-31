@@ -19,7 +19,7 @@ console.log(testModule)
 // 这种模式本质上是利用了立即执行函数&闭包
 // 有一些变化形式，此处略
 // 对模块内部进行优化：揭示模块模式
-// 缺点：私有函数引用公有函数时，公有函数无法被覆盖
+// 缺点：私有函数中引用的公有函数无法被覆盖
 // 其实混用就好了
 
 var myRevealingModule = (function() {
@@ -37,6 +37,7 @@ var myRevealingModule = (function() {
   }
   return {
     setName: publicSetName,
+    // exports 公有变量
     greeting: publicVar,
     getName: publicGetName,
   }

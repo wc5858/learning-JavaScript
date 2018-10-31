@@ -1,6 +1,7 @@
 // 发布/订阅模式
 // 来源：https://addyosmani.com/resources/essentialjsdesignpatterns/book/
 // js的事件模型本身就类似于Publish/Subscribe（只不过不提供DOM之外的自定义事件系统）
+// 和观察者模式相比，耦合更松散
 
 var pubsub = {}
 
