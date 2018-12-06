@@ -92,6 +92,7 @@ var abstractVehicleFactory = (function () {
             var proto = Vehicle.prototype;
    
             // only register classes that fulfill the vehicle contract
+            // 检查待注册的类是否满足接口定义
             if ( proto.drive && proto.breakDown ) {
                 types[type] = Vehicle;
             }
